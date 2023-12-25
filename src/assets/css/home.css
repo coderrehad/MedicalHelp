@@ -1,0 +1,95 @@
+:root{
+    --primary:#71ffff;
+    --subprimary: #02d7f9;
+    --secondary: #0298fd;
+    --subsecondary: #5600FF;
+    --white: #fff;
+    --black: #1d1f1f;
+    --bg-secondary: #f5f5f5;
+}
+.logo{
+    width: 250px;
+    height: 80px;
+}
+.header_icon{
+    font-size: 18px;
+    color: var(--subsecondary);
+}
+.header_head{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black);
+}
+.nav_item{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+}
+.short{
+    background: var(--black);
+}
+.short_head{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner{
+    background: linear-gradient(rgba(2, 152, 253, 0.7),rgba(2, 152, 253, 0.7)),url("https://i.postimg.cc/25xD4fxc/Pharmacist.jpg");
+    width: 100%;
+}
+.banner_wrapper{
+    text-align: center;
+    padding: 150px 0;
+    width: 500px;
+    margin: auto;
+}
+.banner_head{
+    color: var(--black);
+}
+.banner_head{
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.banner_para{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.option_head{
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.option_pera{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.flyer{
+    background: var(--bg-secondary);
+}
+.flyer_head{
+    color: var(--subsecondary);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.flyer_sub_head{
+    color: var(--secondary);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.flyer_pera{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
